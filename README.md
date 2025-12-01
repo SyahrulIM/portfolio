@@ -1,1 +1,1 @@
-Visit My Portfolio in this link: syahrulim.github.io/portfolio
+Visit My Portfolio in this link: https://www.izhatech.com/
