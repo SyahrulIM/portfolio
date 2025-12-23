@@ -22,7 +22,7 @@
   <meta property="og:title" content="Syahrul Izha Mahendra - Fullstack Developer & Freelance Programmer">
   <meta property="og:description"
     content="Portfolio Syahrul Izha Mahendra, Fullstack Developer dan Freelance Programmer dengan pengalaman dalam pengembangan web, chatbot, dan data mining.">
-  <meta property="og:image" content="https://izhatech.com/img/Syahrul_Izha_Profile_Foto.jpg">
+  <meta property="og:image" content="https://izhatech.com/img/profile.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -30,7 +30,7 @@
   <meta property="twitter:title" content="Syahrul Izha Mahendra - Fullstack Developer & Freelance Programmer">
   <meta property="twitter:description"
     content="Portfolio Syahrul Izha Mahendra, Fullstack Developer dan Freelance Programmer dengan pengalaman dalam pengembangan web, chatbot, dan data mining.">
-  <meta property="twitter:image" content="https://izhatech.com/img/Syahrul_Izha_Profile_Foto.jpg">
+  <meta property="twitter:image" content="https://izhatech.com/img/profile.jpg">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://izhatech.com/">
@@ -42,7 +42,7 @@
     "@type": "Person",
     "name": "Syahrul Izha Mahendra",
     "url": "https://izhatech.com/",
-    "image": "https://izhatech.com/img/Syahrul_Izha_Profile_Foto.jpg",
+    "image": "https://izhatech.com/img/profile.jpg",
     "jobTitle": "Fullstack Developer & Freelance Programmer",
     "worksFor": {
       "@type": "Organization",
@@ -106,12 +106,39 @@
   </nav>
 
   <main id="main-content">
-    <section class="jumbotron text-center">
-      <img src="img/Syahrul_Izha_Profile_Foto.jpg" alt="Foto Profil Syahrul Izha Mahendra" width="25%"
-        class="rounded-circle img-thumbnail">
-      <h1 class="display-4">Syahrul Izha Mahendra</h1>
-      <p class="lead">Fullstack Developer & Freelance Programmer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" aria-hidden="true">
+    <section class="jumbotron text-center" style="background-color: #e2edff; padding-top: 100px; padding-bottom: 50px;">
+      <!-- ALTERNATIVE 1: Gunakan path yang benar -->
+      <img src="img/Syahrul Izha_Profile Foto.jpg" alt="Foto Profil Syahrul Izha Mahendra - Fullstack Developer"
+        width="200" height="200" class="rounded-circle img-thumbnail border-primary mb-4"
+        style="border-width: 3px; object-fit: cover;">
+
+      <!-- ALTERNATIVE 2: Jika gambar tidak muncul, coba path lain -->
+      <!--
+      <img src="profile.jpg" 
+           alt="Foto Profil Syahrul Izha Mahendra" 
+           width="200" 
+           class="rounded-circle img-thumbnail mb-4">
+      -->
+
+      <!-- ALTERNATIVE 3: Gunakan gambar placeholder sementara -->
+      <!--
+      <div class="d-flex justify-content-center mb-4">
+        <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" 
+             style="width: 200px; height: 200px;">
+          <span class="text-white display-4">SI</span>
+        </div>
+      </div>
+      -->
+
+      <h1 class="display-4 fw-bold">Syahrul Izha Mahendra</h1>
+      <p class="lead fs-3 text-primary">Fullstack Developer & Freelance Programmer</p>
+      <div class="mt-3">
+        <span class="badge bg-primary fs-6 m-1">Web Development</span>
+        <span class="badge bg-secondary fs-6 m-1">Chatbot Solutions</span>
+        <span class="badge bg-success fs-6 m-1">Data Mining</span>
+        <span class="badge bg-info fs-6 m-1">Company Profile</span>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" aria-hidden="true" class="mt-5">
         <path fill="#fff" fill-opacity="1"
           d="M0,192L48,165.3C96,139,192,85,288,85.3C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,245.3C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
@@ -122,27 +149,45 @@
       <div class="container">
         <div class="row mb-3">
           <div class="col text-center">
-            <h2>About <span itemprop="name">Syahrul Izha Mahendra</span></h2>
+            <h2 class="display-5 fw-bold">About <span itemprop="name">Syahrul Izha Mahendra</span></h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-6">
-            <p itemprop="description">
-              Hi, I'm <strong itemprop="name">Syahrul Izha</strong>, a <strong>Fullstack Developer</strong> and
-              <strong>Freelance Programmer</strong> with expertise in web development, chatbot creation, and data mining
-              solutions.
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-8 text-center">
+            <p itemprop="description" class="mb-4">
+              Hi, I'm <strong itemprop="name">Syahrul Izha</strong>, a passionate <strong>Fullstack Developer</strong>
+              and <strong>Freelance Programmer</strong> with expertise in web development, chatbot creation, and data
+              mining solutions.
               I specialize in building complete web applications from frontend interfaces to backend engines.
             </p>
-            <p>
-              With a passion for technology and problem-solving, I help businesses establish their online presence
-              through custom websites,
-              automate customer service with intelligent chatbots, and transform raw data into actionable insights with
-              data mining applications.
-            </p>
-            <p>
-              Based in Indonesia, I work with clients locally and internationally to deliver high-quality digital
-              solutions.
-            </p>
+            <div class="row mt-4">
+              <div class="col-md-6 mb-3">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <h3 class="h5 card-title text-primary"><i class="bi bi-code-slash me-2"></i>Technical Skills</h3>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Fullstack Web Development</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Chatbot Development</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Data Mining & Analysis</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Responsive Design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <h3 class="h5 card-title text-primary"><i class="bi bi-briefcase me-2"></i>Services</h3>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Company Profile Websites</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Web Applications</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Chatbot Solutions</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Data Mining Systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -157,15 +202,15 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Portfolio Projects</h2>
+            <h2 class="display-5 fw-bold">Portfolio Projects</h2>
             <p class="lead">Some of my recent work as a Fullstack Developer and Programmer</p>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <img src="img/portfolio/1.jpg" class="card-img-top"
-                alt="Pana Gumilang Kontraktor Company Profile Website">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="img/portfolio/1.jpg" class="card-img-top" alt="Pana Gumilang Kontraktor Company Profile Website"
+                style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h3 class="card-title h5">Pana Gumilang Kontraktor | Company Profile</h3>
                 <p class="card-text">Developed a professional company profile website for Pana Gumilang Kontraktor,
@@ -176,8 +221,9 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <img src="img/portfolio/22.jpg" class="card-img-top" alt="PT Bitnet Customer Service Chatbot Application">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="img/portfolio/22.jpg" class="card-img-top" alt="PT Bitnet Customer Service Chatbot Application"
+                style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h3 class="card-title h5">PT.Bitnet | Customer Service Chatbot</h3>
                 <p class="card-text">Created a web-based chatbot application for customer information services for ISP
@@ -188,8 +234,9 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <img src="img/portfolio/3.jpg" class="card-img-top" alt="PM 86 Jaya Printing Data Mining Web Application">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="img/portfolio/3.jpg" class="card-img-top" alt="PM 86 Jaya Printing Data Mining Web Application"
+                style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h3 class="card-title h5">Pm 86 Jaya Printing | Data Mining System</h3>
                 <p class="card-text">Developed a web application for data mining and analysis for PM 86 Jaya Printing
@@ -202,8 +249,8 @@
         </div>
         <div class="row mt-4">
           <div class="col text-center">
-            <p class="text-muted">Looking for similar projects? <a href="#contact" class="text-primary">Contact me</a>
-              to discuss your requirements.</p>
+            <p class="text-muted">Looking for similar projects? <a href="#contact" class="text-primary fw-bold">Contact
+                me</a> to discuss your requirements.</p>
           </div>
         </div>
       </div>
@@ -218,7 +265,7 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contact Syahrul Izha</h2>
+            <h2 class="display-5 fw-bold">Contact Syahrul Izha</h2>
             <p class="lead">Get in touch for freelance projects or collaboration opportunities</p>
           </div>
         </div>
@@ -243,22 +290,25 @@
               </div>
               <input type="hidden" name="_subject" value="New contact from portfolio website">
               <input type="hidden" name="_template" value="table">
-              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+              <button type="submit" class="btn btn-primary btn-lg w-100">Kirim Pesan</button>
             </form>
 
             <div class="mt-5 text-center">
-              <h3 class="h5">Connect with me</h3>
+              <h3 class="h4">Connect with me</h3>
               <div class="d-flex justify-content-center mt-3">
                 <a href="https://www.linkedin.com/in/syahrul-izha-63662819b/" class="text-primary mx-3"
                   aria-label="LinkedIn Profile" target="_blank">
-                  <i class="bi bi-linkedin fs-3"></i>
+                  <i class="bi bi-linkedin fs-2"></i>
                 </a>
                 <a href="https://github.com/syahrulizha" class="text-primary mx-3" aria-label="GitHub Profile"
                   target="_blank">
-                  <i class="bi bi-github fs-3"></i>
+                  <i class="bi bi-github fs-2"></i>
                 </a>
                 <a href="mailto:your-email@example.com" class="text-primary mx-3" aria-label="Send Email">
-                  <i class="bi bi-envelope-fill fs-3"></i>
+                  <i class="bi bi-envelope-fill fs-2"></i>
+                </a>
+                <a href="https://wa.me/6281234567890" class="text-primary mx-3" aria-label="WhatsApp" target="_blank">
+                  <i class="bi bi-whatsapp fs-2"></i>
                 </a>
               </div>
             </div>
@@ -274,13 +324,13 @@
   </main>
 
   <footer class="bg-primary text-white text-center p-3">
-    <p>
+    <p class="mb-1">
       <span itemprop="copyrightHolder">© 2023 Syahrul Izha Mahendra. All rights reserved.</span>
       Made with <i class="bi bi-cup-hot-fill text-white"></i> By
       <a href="https://www.linkedin.com/in/syahrul-izha-63662819b/" class="text-white fw-bold" itemprop="author">Syahrul
         Izha Mahendra</a>
     </p>
-    <p class="small">
+    <p class="small mb-0">
       <strong>Freelance Fullstack Developer</strong> | Web Development | Chatbot Solutions | Data Mining Applications
     </p>
   </footer>
